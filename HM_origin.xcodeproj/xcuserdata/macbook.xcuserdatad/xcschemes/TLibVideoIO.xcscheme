@@ -14,56 +14,59 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6767961811AD626F00421804"
-               BuildableName = "libTLibEncoder.a"
-               BlueprintName = "TLibEncoder"
-               ReferencedContainer = "container:HM.xcodeproj">
+               BlueprintIdentifier = "6767964A11AD629200421804"
+               BuildableName = "libTLibVideoIO.a"
+               BlueprintName = "TLibVideoIO"
+               ReferencedContainer = "container:HM_origin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      buildConfiguration = "Debug">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <AdditionalOptions>
+      </AdditionalOptions>
    </TestAction>
    <LaunchAction
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6767961811AD626F00421804"
-            BuildableName = "libTLibEncoder.a"
-            BlueprintName = "TLibEncoder"
-            ReferencedContainer = "container:HM.xcodeproj">
+            BlueprintIdentifier = "6767964A11AD629200421804"
+            BuildableName = "libTLibVideoIO.a"
+            BlueprintName = "TLibVideoIO"
+            ReferencedContainer = "container:HM_origin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
+      buildConfiguration = "Release"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6767961811AD626F00421804"
-            BuildableName = "libTLibEncoder.a"
-            BlueprintName = "TLibEncoder"
-            ReferencedContainer = "container:HM.xcodeproj">
+            BlueprintIdentifier = "6767964A11AD629200421804"
+            BuildableName = "libTLibVideoIO.a"
+            BlueprintName = "TLibVideoIO"
+            ReferencedContainer = "container:HM_origin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

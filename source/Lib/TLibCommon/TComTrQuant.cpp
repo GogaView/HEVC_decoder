@@ -1154,16 +1154,7 @@ Void TComTrQuant::xQuant(       TComTU       &rTu,
     {
         vDes.push_back(pArlDes[i]);
     }
-    
-//    if(compID == COMPONENT_Y)
-//    {
-//       pSrc[uiHeight * uiWidth] = INT_MAX;
-//
-//    }
-
-    if( uiHeight <= 16)
-        int irr = 0;
-    
+        
   TCoeff* piCoef    = pSrc;
   TCoeff* piQCoef   = pDes;
 #if ADAPTIVE_QP_SELECTION
@@ -1293,42 +1284,42 @@ Void TComTrQuant::xQuant(       TComTU       &rTu,
         
     }
     
-    int h = uiHeight;
-    
-    if(uiAbsSum > 0 && compID == COMPONENT_Y )
-    {
-        
-//        TrolololQuantCnt++;
-
-        int iConst = 10;
-        int iConstSum = 100;
-        
-        if(cQP.Qp >= 35 )
-        {
-            if( pDes[3*h+3] % 2 == 0 && ( pDes[3*h+3] >= iConst ||  pDes[3*h+3] <= (-1) * iConst) )
-            {
-                int value = pDes[3*h+3];
-//                pDes[3*h+3] = pDes[3*h+3] + iConstSum;
-            }
-        }
-        else if(cQP.Qp  >= 17 )
-        {
-            if( pDes[2*h+2] % 2 == 0 && ( pDes[2*h+2] >= iConst ||  pDes[2*h+2] <= (-1) * iConst) )
-            {
-                int value = pDes[2*h+2];
-//                pDes[2*h+2] = pDes[2*h+2] + iConstSum;
-            }
-        }
-        else if(cQP.Qp  >= 0 )
-        {
-            if( pDes[1*h+1] % 2 == 0 && ( pDes[1*h+1] >= iConst ||  pDes[1*h+1] <= (-1) * iConst) )
-            {
-                int value = pDes[1*h+1];
-//                pDes[1*h+1] = pDes[1*h+1] + iConstSum;
-            }
-        }
-        
-    }
+//    int h = uiHeight;
+//    
+//    if(uiAbsSum > 0 && compID == COMPONENT_Y )
+//    {
+//        
+////        TrolololQuantCnt++;
+//
+//        int iConst = 10;
+//        int iConstSum = 100;
+//        
+//        if(cQP.Qp >= 35 )
+//        {
+//            if( pDes[3*h+3] % 2 == 0 && ( pDes[3*h+3] >= iConst ||  pDes[3*h+3] <= (-1) * iConst) )
+//            {
+//                int value = pDes[3*h+3];
+////                pDes[3*h+3] = pDes[3*h+3] + iConstSum;
+//            }
+//        }
+//        else if(cQP.Qp  >= 17 )
+//        {
+//            if( pDes[2*h+2] % 2 == 0 && ( pDes[2*h+2] >= iConst ||  pDes[2*h+2] <= (-1) * iConst) )
+//            {
+//                int value = pDes[2*h+2];
+////                pDes[2*h+2] = pDes[2*h+2] + iConstSum;
+//            }
+//        }
+//        else if(cQP.Qp  >= 0 )
+//        {
+//            if( pDes[1*h+1] % 2 == 0 && ( pDes[1*h+1] >= iConst ||  pDes[1*h+1] <= (-1) * iConst) )
+//            {
+//                int value = pDes[1*h+1];
+////                pDes[1*h+1] = pDes[1*h+1] + iConstSum;
+//            }
+//        }
+//        
+//    }
 
 }
 
@@ -1398,10 +1389,20 @@ Void TComTrQuant::xDeQuant(       TComTU        &rTu,
 {
   assert(compID<MAX_NUM_COMPONENT);
 
+TCoeff value = 10000;
     
-    TrolololDeQuantCnt++;
-    
-//        std::cout << "DeQuant : " << TrolololQuantCnt << " \t" << TrolololDeQuantCnt << std::endl;
+    if((pSrc[0] == value || pSrc[0] == -value) && compID == COMPONENT_Y)
+    {
+        TrolololDeQuantCnt++;
+        std::cout << "DeQuant : " << TrolololDeQuantCnt << std::endl;
+    }
+    else
+    {
+        if(compID == COMPONENT_Y)
+        {
+            int i = 0;
+        }
+    }
     
     
         TComDataCU          *pcCU               = rTu.getCU();
@@ -1434,40 +1435,40 @@ Void TComTrQuant::xDeQuant(       TComTU        &rTu,
     
     int iConst = 9;
     
-    
-    
-    
-    if( compID == COMPONENT_Y /*&& h == 8*/)
-    {
-    if(cQP.Qp >= 35 )
-    {
-        if( pSrc[3*h+3] % 2 == 0 && ( pSrc[3*h+3] >= iConst ||  pSrc[3*h+3] <= (-1) * iConst) )
-        {
-            int value = pSrc[3*h+3];
-            int iErrot = 1;
-        }
-    }
-    else if(cQP.Qp  >= 17 )
-    {
-        if( pSrc[2*h+2] % 2 == 0 && ( pSrc[2*h+2] >= iConst ||  pSrc[2*h+2] <= (-1) * iConst) )
-        {
-            int value = pSrc[2*h+2];
-            int iErrot = 1;
-        }
-    }
-    else if(cQP.Qp  >= 0 )
-    {
-        if( pSrc[1*h+1] % 2 == 0 && ( pSrc[1*h+1] >= iConst ||  pSrc[1*h+1] <= (-1) * iConst) )
-        {
-            int value = pSrc[1*h+1];
-            int iErrot = 1;
-        }
-    }
-    }
-    
-    int j = 00;
-    
-    
+//    
+//    
+//    
+//    if( compID == COMPONENT_Y /*&& h == 8*/)
+//    {
+//    if(cQP.Qp >= 35 )
+//    {
+//        if( pSrc[3*h+3] % 2 == 0 && ( pSrc[3*h+3] >= iConst ||  pSrc[3*h+3] <= (-1) * iConst) )
+//        {
+//            int value = pSrc[3*h+3];
+//            int iErrot = 1;
+//        }
+//    }
+//    else if(cQP.Qp  >= 17 )
+//    {
+//        if( pSrc[2*h+2] % 2 == 0 && ( pSrc[2*h+2] >= iConst ||  pSrc[2*h+2] <= (-1) * iConst) )
+//        {
+//            int value = pSrc[2*h+2];
+//            int iErrot = 1;
+//        }
+//    }
+//    else if(cQP.Qp  >= 0 )
+//    {
+//        if( pSrc[1*h+1] % 2 == 0 && ( pSrc[1*h+1] >= iConst ||  pSrc[1*h+1] <= (-1) * iConst) )
+//        {
+//            int value = pSrc[1*h+1];
+//            int iErrot = 1;
+//        }
+//    }
+//    }
+//    
+//    int j = 00;
+//    
+//    
   assert (scalingListType < SCALING_LIST_NUM);
   assert ( uiWidth <= m_uiMaxTrSize );
 

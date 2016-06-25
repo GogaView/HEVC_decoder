@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6782E0DD11AD691A00E8FFB8"
-               BuildableName = "TAppDecoder"
-               BlueprintName = "TAppDecoder"
-               ReferencedContainer = "container:HM.xcodeproj">
+               BlueprintIdentifier = "676795F311AD621A00421804"
+               BuildableName = "libTLibDecoder.a"
+               BlueprintName = "TLibDecoder"
+               ReferencedContainer = "container:HM_origin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6782E0DD11AD691A00E8FFB8"
-            BuildableName = "TAppDecoder"
-            BlueprintName = "TAppDecoder"
-            ReferencedContainer = "container:HM.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,26 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6782E0DD11AD691A00E8FFB8"
-            BuildableName = "TAppDecoder"
-            BlueprintName = "TAppDecoder"
-            ReferencedContainer = "container:HM.xcodeproj">
+            BlueprintIdentifier = "676795F311AD621A00421804"
+            BuildableName = "libTLibDecoder.a"
+            BlueprintName = "TLibDecoder"
+            ReferencedContainer = "container:HM_origin.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "-c test.cfg  -i mobile_cif.yuv"
-            isEnabled = "NO">
-         </CommandLineArgument>
-         <CommandLineArgument
-            argument = "-b mobile.hevc -o mobile_out_new.yuv"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6782E0DD11AD691A00E8FFB8"
-            BuildableName = "TAppDecoder"
-            BlueprintName = "TAppDecoder"
-            ReferencedContainer = "container:HM.xcodeproj">
+            BlueprintIdentifier = "676795F311AD621A00421804"
+            BuildableName = "libTLibDecoder.a"
+            BlueprintName = "TLibDecoder"
+            ReferencedContainer = "container:HM_origin.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

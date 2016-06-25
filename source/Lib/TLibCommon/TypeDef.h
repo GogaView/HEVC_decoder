@@ -51,7 +51,7 @@
 // Debugging
 // ====================================================================================================================
 
-#define DEBUG_STRING                                      1 ///< When enabled, prints out final decision debug info at encoder and decoder
+#define DEBUG_STRING                                      0 ///< When enabled, prints out final decision debug info at encoder and decoder
 #define DEBUG_ENCODER_SEARCH_BINS                         0 ///< When enabled, prints out each bin as it is coded during encoder search
 #define DEBUG_CABAC_BINS                                  0 ///< When enabled, prints out each bin as it is coded during final encode and decode
 #define DEBUG_INTRA_SEARCH_COSTS                          0 ///< When enabled, prints out the cost for each mode during encoder search

@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6767966911AD635600421804"
-               BuildableName = "TAppEncoder"
-               BlueprintName = "TAppEncoder"
-               ReferencedContainer = "container:HM.xcodeproj">
+               BlueprintIdentifier = "6767961811AD626F00421804"
+               BuildableName = "libTLibEncoder.a"
+               BlueprintName = "TLibEncoder"
+               ReferencedContainer = "container:HM_origin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6767966911AD635600421804"
-            BuildableName = "TAppEncoder"
-            BlueprintName = "TAppEncoder"
-            ReferencedContainer = "container:HM.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,22 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6767966911AD635600421804"
-            BuildableName = "TAppEncoder"
-            BlueprintName = "TAppEncoder"
-            ReferencedContainer = "container:HM.xcodeproj">
+            BlueprintIdentifier = "6767961811AD626F00421804"
+            BuildableName = "libTLibEncoder.a"
+            BlueprintName = "TLibEncoder"
+            ReferencedContainer = "container:HM_origin.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
-      <CommandLineArguments>
-         <CommandLineArgument
-            argument = "-c test.cfg  -i mobile_cif.yuv"
-            isEnabled = "YES">
-         </CommandLineArgument>
-      </CommandLineArguments>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -76,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6767966911AD635600421804"
-            BuildableName = "TAppEncoder"
-            BlueprintName = "TAppEncoder"
-            ReferencedContainer = "container:HM.xcodeproj">
+            BlueprintIdentifier = "6767961811AD626F00421804"
+            BuildableName = "libTLibEncoder.a"
+            BlueprintName = "TLibEncoder"
+            ReferencedContainer = "container:HM_origin.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

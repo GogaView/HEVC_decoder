@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "TEncSearch::xIntraCodingTUBlock(TComYuv*, TComYuv*, TComYuv*, short (*) [4096], bool, unsigned int&amp;, ComponentID, TComTU&amp;, std::string&amp;, int):TEncSearch.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "uiWidth">
+            </PersistentString>
+            <PersistentString
+               value = "uiQTLayer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TEncCu::compressCtu(TComDataCU*):TEncCu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(unsigned int)(&apos;/b&apos;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TDecCu::xIntraRecQT(TComYuv*, TComYuv*, TComYuv*, ChannelType, TComTU&amp;):TDecCu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pcCoeff[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TDecCu::xIntraRecBlk(TComYuv*, TComYuv*, TComYuv*, ComponentID, TComTU&amp;):TDecCu.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pcCoeff[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TComTrQuant::xDeQuant(TComTU&amp;, int const*, int*, ComponentID, QpParam const&amp;):TComTrQuant.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pSrc[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

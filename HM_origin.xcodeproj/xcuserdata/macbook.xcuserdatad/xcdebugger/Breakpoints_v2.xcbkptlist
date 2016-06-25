@@ -90,7 +90,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibDecoder/TDecCu.cpp"
-            timestampString = "486850987.068436"
+            timestampString = "488567244.283854"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "717"
@@ -106,7 +106,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibDecoder/TDecCu.cpp"
-            timestampString = "486850987.068436"
+            timestampString = "488567244.283854"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "713"
@@ -154,7 +154,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibDecoder/TDecCu.cpp"
-            timestampString = "486850987.068436"
+            timestampString = "488567244.283854"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "753"
@@ -358,22 +358,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482603479.285681"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1402"
-            endingLineNumber = "1402"
-            landmarkName = "TComTrQuant::xDeQuant( TComTU &amp;rTu, const TCoeff * pSrc, TCoeff * pDes, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             condition = "update distortion"
@@ -467,43 +451,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482603479.285681"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1306"
-            endingLineNumber = "1306"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482603479.285681"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1298"
-            endingLineNumber = "1298"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1705"
-            endingLineNumber = "1705"
+            startingLineNumber = "1706"
+            endingLineNumber = "1706"
             landmarkName = "TComTrQuant::transformNxN( TComTU &amp; rTu, const ComponentID compID, Pel * pcResidual, const UInt uiStride, TCoeff * rpcCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * pcArlCoeff, #endif TCoeff &amp; uiAbsSum, const QpParam &amp; cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -546,22 +498,6 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482603479.285681"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1303"
-            endingLineNumber = "1303"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibEncoder/TEncSearch.cpp"
             timestampString = "482009793.8324"
             startingColumnNumber = "9223372036854775807"
@@ -585,70 +521,6 @@
             startingLineNumber = "1611"
             endingLineNumber = "1611"
             landmarkName = "TEncSearch::xRecurIntraCodingLumaQT(TComYuv* pcOrgYuv, TComYuv* pcPredYuv, TComYuv* pcResiYuv, Pel resiLuma[NUMBER_OF_STORED_RESIDUAL_TYPES][MAX_CU_SIZE * MAX_CU_SIZE], Distortion&amp; ruiDistY, #if HHI_RQT_INTRA_SPEEDUP Bool bCheckFirst, #endif Double&amp; dRDCost, TComTU&amp; rTu DEBUG_STRING_FN_DECLARE(sDebug))"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482603479.285681"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1319"
-            endingLineNumber = "1319"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1440"
-            endingLineNumber = "1440"
-            landmarkName = "TComTrQuant::xDeQuant( TComTU &amp;rTu, const TCoeff * pSrc, TCoeff * pDes, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1442"
-            endingLineNumber = "1442"
-            landmarkName = "TComTrQuant::xDeQuant( TComTU &amp;rTu, const TCoeff * pSrc, TCoeff * pDes, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482514674.738408"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1165"
-            endingLineNumber = "1165"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -739,59 +611,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482580090.264943"
+            timestampString = "488545032.780374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1164"
-            endingLineNumber = "1164"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TComTrQuant::xQuant(TComTU&amp;, int*, int*, int*, int&amp;, ComponentID, QpParam const&amp;)"
-                  moduleName = "TAppEncoder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbook/Desktop/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%A1%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80%202/Refer/trunk/source/Lib/TLibCommon/TComTrQuant.cpp"
-                  timestampString = "486937935.287833"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1164"
-                  endingLineNumber = "1164"
-                  offsetFromSymbolStart = "675">
-               </Location>
-               <Location
-                  shouldBeEnabled = "No"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "TComTrQuant::xQuant(TComTU&amp;, int*, int*, int*, int&amp;, ComponentID, QpParam const&amp;)"
-                  moduleName = "TAppEncoder"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/macbook/Desktop/%D0%94%D0%B8%D0%BF%D0%BB%D0%BE%D0%BC/%D0%A1%D0%B5%D0%BC%D0%B5%D1%81%D1%82%D1%80%202/Refer/trunk/source/Lib/TLibCommon/TComTrQuant.cpp"
-                  timestampString = "486937935.288389"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "1164"
-                  endingLineNumber = "1164"
-                  offsetFromSymbolStart = "682">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482580727.75598"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1184"
-            endingLineNumber = "1184"
+            startingLineNumber = "1175"
+            endingLineNumber = "1175"
             landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -803,11 +627,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2543"
-            endingLineNumber = "2543"
+            startingLineNumber = "2544"
+            endingLineNumber = "2544"
             landmarkName = "TComTrQuant::xRateDistOptQuant ( TComTU &amp;rTu, TCoeff * plSrcCoeff, TCoeff * piDstCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * piArlDstCoeff, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -819,11 +643,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2689"
-            endingLineNumber = "2689"
+            startingLineNumber = "2690"
+            endingLineNumber = "2690"
             landmarkName = "TComTrQuant::xRateDistOptQuant ( TComTU &amp;rTu, TCoeff * plSrcCoeff, TCoeff * piDstCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * piArlDstCoeff, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -835,27 +659,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "482603479.285681"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1296"
-            endingLineNumber = "1296"
-            landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1790"
-            endingLineNumber = "1790"
+            startingLineNumber = "1791"
+            endingLineNumber = "1791"
             landmarkName = "TComTrQuant::invTransformNxN( TComTU &amp;rTu, const ComponentID compID, Pel *pcResidual, const UInt uiStride, TCoeff * pcCoeff, const QpParam &amp;cQP DEBUG_STRING_FN_DECLAREP(psDebug))"
             landmarkType = "5">
          </BreakpointContent>
@@ -867,11 +675,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "2167"
-            endingLineNumber = "2167"
+            startingLineNumber = "2168"
+            endingLineNumber = "2168"
             landmarkName = "TComTrQuant::xIT( const Int channelBitDepth, Bool useDST, TCoeff* plCoef, Pel* pResidual, UInt uiStride, Int iWidth, Int iHeight, const Int maxLog2TrDynamicRange )"
             landmarkType = "5">
          </BreakpointContent>
@@ -915,11 +723,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1717"
-            endingLineNumber = "1717"
+            startingLineNumber = "1718"
+            endingLineNumber = "1718"
             landmarkName = "TComTrQuant::invTransformNxN( TComTU &amp;rTu, const ComponentID compID, Pel *pcResidual, const UInt uiStride, TCoeff * pcCoeff, const QpParam &amp;cQP DEBUG_STRING_FN_DECLAREP(psDebug))"
             landmarkType = "5">
          </BreakpointContent>
@@ -947,11 +755,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1612"
-            endingLineNumber = "1612"
+            startingLineNumber = "1613"
+            endingLineNumber = "1613"
             landmarkName = "TComTrQuant::transformNxN( TComTU &amp; rTu, const ComponentID compID, Pel * pcResidual, const UInt uiStride, TCoeff * rpcCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * pcArlCoeff, #endif TCoeff &amp; uiAbsSum, const QpParam &amp; cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -963,11 +771,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1697"
-            endingLineNumber = "1697"
+            startingLineNumber = "1698"
+            endingLineNumber = "1698"
             landmarkName = "TComTrQuant::transformNxN( TComTU &amp; rTu, const ComponentID compID, Pel * pcResidual, const UInt uiStride, TCoeff * rpcCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * pcArlCoeff, #endif TCoeff &amp; uiAbsSum, const QpParam &amp; cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -979,11 +787,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "483357768.554798"
+            timestampString = "488545032.780374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1292"
-            endingLineNumber = "1292"
+            startingLineNumber = "1283"
+            endingLineNumber = "1283"
             landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -995,11 +803,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "483357780.343559"
+            timestampString = "488545032.780374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1285"
-            endingLineNumber = "1285"
+            startingLineNumber = "1276"
+            endingLineNumber = "1276"
             landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -1139,11 +947,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1673"
-            endingLineNumber = "1673"
+            startingLineNumber = "1674"
+            endingLineNumber = "1674"
             landmarkName = "TComTrQuant::transformNxN( TComTU &amp; rTu, const ComponentID compID, Pel * pcResidual, const UInt uiStride, TCoeff * rpcCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * pcArlCoeff, #endif TCoeff &amp; uiAbsSum, const QpParam &amp; cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -1395,11 +1203,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1674"
-            endingLineNumber = "1674"
+            startingLineNumber = "1675"
+            endingLineNumber = "1675"
             landmarkName = "TComTrQuant::transformNxN( TComTU &amp; rTu, const ComponentID compID, Pel * pcResidual, const UInt uiStride, TCoeff * rpcCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * pcArlCoeff, #endif TCoeff &amp; uiAbsSum, const QpParam &amp; cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -1567,15 +1375,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486334031.816396"
+            timestampString = "488545032.780374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1284"
-            endingLineNumber = "1284"
+            startingLineNumber = "1275"
+            endingLineNumber = "1275"
             landmarkName = "TComTrQuant::xQuant( TComTU &amp;rTu, TCoeff * pSrc, TCoeff * pDes, #if ADAPTIVE_QP_SELECTION TCoeff *pArlDes, #endif TCoeff &amp;uiAbsSum, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -1635,11 +1443,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
-            timestampString = "486847882.093168"
+            timestampString = "488569193.722699"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1669"
-            endingLineNumber = "1669"
+            startingLineNumber = "1670"
+            endingLineNumber = "1670"
             landmarkName = "TComTrQuant::transformNxN( TComTU &amp; rTu, const ComponentID compID, Pel * pcResidual, const UInt uiStride, TCoeff * rpcCoeff, #if ADAPTIVE_QP_SELECTION TCoeff * pcArlCoeff, #endif TCoeff &amp; uiAbsSum, const QpParam &amp; cQP )"
             landmarkType = "5">
          </BreakpointContent>
@@ -1807,7 +1615,7 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibDecoder/TDecSlice.cpp"
@@ -1839,11 +1647,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "source/Lib/TLibDecoder/TDecCu.cpp"
-            timestampString = "486932062.200012"
+            timestampString = "488567244.283854"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "729"
@@ -1961,6 +1769,102 @@
             startingLineNumber = "2511"
             endingLineNumber = "2511"
             landmarkName = "TEncSearch::estIntraPredLumaQT(TComDataCU* pcCU, TComYuv* pcOrgYuv, TComYuv* pcPredYuv, TComYuv* pcResiYuv, TComYuv* pcRecoYuv, Pel resiLuma[NUMBER_OF_STORED_RESIDUAL_TYPES][MAX_CU_SIZE * MAX_CU_SIZE] DEBUG_STRING_FN_DECLARE(sDebug))"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
+            timestampString = "488569193.722699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1408"
+            endingLineNumber = "1408"
+            landmarkName = "TComTrQuant::xDeQuant( TComTU &amp;rTu, const TCoeff * pSrc, TCoeff * pDes, const ComponentID compID, const QpParam &amp;cQP )"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibDecoder/TDecSlice.cpp"
+            timestampString = "488558600.120995"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "239"
+            endingLineNumber = "239"
+            landmarkName = "TDecSlice::decompressSlice(TComInputBitstream** ppcSubstreams, TComPic* pcPic, TDecSbac* pcSbacDecoder)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
+            timestampString = "488569193.722699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1394"
+            endingLineNumber = "1394"
+            landmarkName = "TComTrQuant::xDeQuant( TComTU &amp;rTu, const TCoeff * pSrc, TCoeff * pDes, const ComponentID compID, const QpParam &amp;cQP )"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibDecoder/TDecCu.cpp"
+            timestampString = "488568158.896565"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "548"
+            endingLineNumber = "548"
+            landmarkName = "TDecCu::xIntraRecBlk( TComYuv* pcRecoYuv, TComYuv* pcPredYuv, TComYuv* pcResiYuv, const ComponentID compID, TComTU &amp;rTu)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
+            timestampString = "488569193.722699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1783"
+            endingLineNumber = "1783"
+            landmarkName = "TComTrQuant::invTransformNxN( TComTU &amp;rTu, const ComponentID compID, Pel *pcResidual, const UInt uiStride, TCoeff * pcCoeff, const QpParam &amp;cQP DEBUG_STRING_FN_DECLAREP(psDebug))"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "source/Lib/TLibCommon/TComTrQuant.cpp"
+            timestampString = "488569193.722699"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1403"
+            endingLineNumber = "1403"
+            landmarkName = "TComTrQuant::xDeQuant( TComTU &amp;rTu, const TCoeff * pSrc, TCoeff * pDes, const ComponentID compID, const QpParam &amp;cQP )"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

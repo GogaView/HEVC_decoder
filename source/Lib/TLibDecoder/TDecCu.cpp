@@ -529,10 +529,10 @@ TDecCu::xIntraRecBlk(       TComYuv*    pcRecoYuv,
   Pel*      piResi            = pcResiYuv->getAddr( compID, uiAbsPartIdx );
   TCoeff*   pcCoeff           = pcCU->getCoeff(compID) + rTu.getCoefficientOffset(compID);//( uiNumCoeffInc * uiAbsPartIdx );
 
-    if(compID == COMPONENT_Y)
-    {
-        pcCoeff[0] = INT_MAX;
-    }
+//    if(compID == COMPONENT_Y)
+//    {
+//        pcCoeff[0] = INT_MAX;
+//    }
     
   const QpParam cQP(*pcCU, compID);
 
